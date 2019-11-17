@@ -1,0 +1,348 @@
+*,html,body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    color: white;
+    width: 100%;
+    line-height: 90px;
+    position: fixed;
+
+
+    ul li{
+        display: inline-block;
+        margin-left: 25px;
+        font-size: 20px;
+        font-weight: 400;
+        
+        a{
+        color: white;
+        transition: all .2s ;
+        }
+        a:hover{
+            text-decoration: none;
+            color: yellowgreen;
+            transform: scale(1.075);
+        }
+    }
+
+    nav{
+    margin-left: 500px;
+    }
+}
+.slider{
+
+    height: 100vh;
+        position: relative;
+        overflow: hidden;
+
+    .bgs{
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+
+
+    h1{
+        font-size: 49px;
+        letter-spacing: 1.5px;
+        font-weight: 700;
+    }
+
+    h3{
+        font-weight: 800;
+        letter-spacing: 1px;
+
+    }
+    p{
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: rgb(73, 73, 73) ;
+    }
+
+
+    #knopka{
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        background: rgba(129, 202, 55, 0.75);
+        color: white;
+        transition: .2s linear;
+        position: relative;
+        left: 0px;
+    }
+    #knopka:hover{
+        background: rgb(114, 201, 28);
+        left: 20px;
+
+
+    }
+    .bg-first{
+        background-image: url(https://demo.kallyas.net/winter-sports/wp-content/uploads/sites/92/2018/02/winter-sports-bg.jpg);
+        background-repeat: no-repeat;
+        padding:290px 25px;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center center;
+        position: relative;
+
+        .bg-img{
+            position: absolute;
+            left: 50%;
+            bottom: 0%;
+            transform: translateX(-33%);
+        }
+    }
+    .bg-second{
+        background-image: url(https://demo.kallyas.net/winter-sports/wp-content/uploads/sites/92/2018/02/winter-sports-bg2.jpg);
+        background-repeat: no-repeat;
+        padding:290px 25px;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center center;
+    }
+}
+}
+
+#whowe{
+    
+
+    .whobg1{
+        width:100%;
+        height:100vh;
+        background-image: url(https://demo.kallyas.net/winter-sports/wp-content/uploads/sites/92/2018/02/bg07.jpg);
+    }
+    .whobg2{
+        background:rgb(6, 1, 70);
+        .whotext{
+            top: 35%;
+            position: relative;
+            color: white;
+
+            h1{
+                color: greenyellow;
+            }
+        }
+        button{
+            padding: 10px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            background: rgba(129, 202, 55, 0.75);
+            color: white;
+            transition: .2s linear;
+            position: relative;
+            left: 0px;
+        }
+        button:hover{
+            background: rgb(114, 201, 28);
+            left: 20px;
+    
+    
+        }
+  
+    }
+}
+
+.buy{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: whitesmoke;
+    overflow: hidden;
+
+    p{
+        color:rgb(23, 146, 29);
+    }
+    button{
+        padding: 10px 20px;
+        background: white;
+        border: 2px solid black;
+        color: black;
+        font-weight: 600;
+    }
+
+    .overlaydiv{
+        position: relative;
+        overflow: hidden;
+        transition: all .2s linear;
+
+        img{
+
+            transition: all 0.95s linear;
+
+        }
+        &:hover img{
+            transform: scale(1.095);
+        }
+        &:hover .text-overlay{
+            opacity: 1;
+            transform: rotate(360deg);
+
+            
+
+        }
+    
+    .text-overlay{
+        position: absolute;
+        top: 50%;
+        right: 120px;
+        color: white;
+        opacity: 0;
+        transition: all 0.95s linear;
+        transform: rotate(0deg);
+
+    }
+}
+}
+
+.mencol{
+    overflow: hidden;
+    .bg-col{
+        background-image: url(https://demo.kallyas.net/winter-sports/wp-content/uploads/sites/92/2018/01/bg04.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 600px;
+        // filter: brightness(50%);
+        transition: all 0.75s ;
+
+        &:hover{
+            transform: scale(1.095);
+            // filter: brightness(80%);
+
+            
+
+
+        }
+        
+        .text-overlay{
+            position: relative;
+            top: 50%;
+            font-size: 60px;
+            letter-spacing: 2px;
+            font-weight: 900;
+            color: white;
+           opacity: 55;
+        }
+    }
+    .bg-col2{
+        position: relative;
+        left: 75px;
+        top: 135px;
+    }
+    .bg-col3{
+        position: relative;
+        left: 75px;
+        top: 175px;
+        h1{
+            font-weight: 800;
+            letter-spacing: 1px;
+            line-height: 1.6em;
+            
+        }
+        button{
+            padding: 10px 35px;
+            background: white;
+            border: 2px solid black;
+            border-radius: 3px;
+            color: black;
+            position: relative;
+            margin-top: 30px;
+        }
+    }
+}
+
+.endsec{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    .bgblue{
+        background: rgb(2, 2, 68);
+        color: white;
+        .text-end{
+            position: relative;
+            top: 35%;
+
+            h2{
+                font-size: 40px;
+                color: greenyellow;
+                font-weight: 800;
+            }
+            p{
+                color: white;
+                font-weight: 600;
+                letter-spacing: 1px;
+                line-height: 1.6em;
+                margin-top: 20px;
+            }
+
+            button{
+                padding: 12px 30px;
+                border: 2px solid greenyellow;
+                background: transparent;
+                color: white;
+                font-weight: 600;
+                transition: all .2s linear;
+                margin-top: 20px;
+
+                &:hover{
+                    border: 2px solid rgb(2, 2, 68); 
+                    background: greenyellow;
+                    color: black;
+
+                }
+            }
+            
+        }
+        
+    }
+    .bgred{
+        background-position: center center;
+        object-fit: cover;
+        background-size: cover;
+        height: 700px;
+        
+        background-image: url(https://demo.kallyas.net/winter-sports/wp-content/uploads/sites/92/2018/01/bg05.jpg);
+    }
+}
+
+footer{
+
+    background-image: url(https://images.wallpapersden.com/image/download/small-memory_58461_3840x2160.jpg);
+    
+    padding: 150px 0;
+    position: fixed;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+    position: relative;
+    color: white;
+    
+    .box{
+        width: 20%;
+    }
+    .footer-box{
+        margin-top: 50px;
+        
+        margin: 0 auto;
+
+        i{
+            font-size: 30px;
+            color: white;
+            margin-left: 15px;
+            transition: 0.25s ease-in;
+            cursor: pointer;
+            &:hover{
+                transform: scale(2);
+                color: orange;
+                
+            }
+        }
+    }
+    .endimg{
+        margin: 0 auto;
+        margin-top: 50px;
+        
+    }
+
+}
